@@ -1,0 +1,16 @@
+{
+  "name": "fbprofilewatch",
+  "version": "1.0.0",
+  "description": "Watches a firebase profiler stream for operations that take a long time and report those operations to a slack webhook.",
+  "main": "profile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "daguej",
+  "license": "ISC",
+  "dependencies": {
+    "charm": "^1.0.2",
+    "event-source-stream": "^1.5.0",
+    "request": "^2.83.0"
+  }
+}
